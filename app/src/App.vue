@@ -1,10 +1,23 @@
 <template>
   <div id="app">
     这里是git测试
+
     <h3>这里是路人乙注册</h3>
+
+    <Login></Login>
+
   </div>
 </template>
+<script>
+import Login from './components/Login.vue'
+export default {
+  name:"app",
+  components:{
+    Login,
+  }
+}
 
+</script>
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
